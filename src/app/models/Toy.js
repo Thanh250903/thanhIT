@@ -8,7 +8,7 @@ const Toy = new mongoose.Schema({
     name: { type: String, require: true,},
     description: {type: String, maxLength: 600},
     image: {type: String, maxLength: 255},
-    level: {type: String, maxLength: 255},
+    quantity: {type: String, maxLength: 255},
     price: {type: String, maxLength: 255},
     slug: { type: String, slug: 'name',unique: true },
 },{

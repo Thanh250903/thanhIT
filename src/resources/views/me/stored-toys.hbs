@@ -7,8 +7,9 @@
       <th scope="col">#</th>
       <th scope="col">Name</th>
       <th scope="col">Description</th>
-      <th scope="col">Level</th>
+      <th scope="col">Quantity</th>
       <th scope="col">Price</th>
+      <th scope="col"></th>
       <th scope="col"></th>
     </tr>
   </thead>
@@ -18,7 +19,8 @@
       <th scope="row">{{sum @index 1}}</th>
       <td>{{this.name}}</td>
       <td>{{this.description}}</td>
-      <td>{{this.level}}</td>
+      <td>{{this.quantity}}</td>
+      <td>{{this.price}}</td>
       <td>{{this.createAt}}</td>
       <td>
         <a href="/toys/{{this._id}}/edit" class="btn btn-link">Edit</a>
