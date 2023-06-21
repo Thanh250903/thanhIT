@@ -1,0 +1,33 @@
+{
+  "name": "asm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "watch": "node-sass --watch src/resources/scss/ -o src/public/css/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thanh250903/thanhIT.git"
+  },
+  "author": "co",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thanh250903/thanhIT/issues"
+  },
+  "homepage": "https://github.com/Thanh250903/thanhIT#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.7",
+    "handlebars": "^4.7.7",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.10.0",
+    "mongoose-delete": "^1.0.1",
+    "mongoose-slug-generator": "^1.0.4",
+    "node-sass": "^9.0.0",
+    "nodemon": "^2.0.22"
+  }
+}
